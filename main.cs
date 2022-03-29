@@ -20,7 +20,7 @@ class Program
         Double circumference = 2 * (3.1415926 * radius);
 
         Console.WriteLine("");
-        Console.Write("The circumference of the circle = " + circumference + " cm²");
+        Console.Write("The circumference of the circle = " + circumference.ToString("0.00"); + " cm²");
         Console.ReadKey();
         Console.WriteLine("\nDone.");
     }
